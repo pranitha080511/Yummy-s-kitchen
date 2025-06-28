@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic; 
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header{
+    background-image: url(images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.heading-name{
+    margin-top: 39px;
+}
+.heading2{
+    display: flex;
+    justify-content: center;
+}
+.about button{
+    padding: 10px;
+}
+.about{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.contact_us{
+    margin-bottom: 2%;
+    margin-top: 3% ;
+
+}
+.footer_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.follow_on{
+    margin-bottom: 2%;
+    margin-top: 3% ;
+}
+.contact_us ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.follow_on ul li{
+    list-style-type:none;
+    margin-bottom: 10px;
+}
+.follow_on ul li a{
+    text-decoration: none;
+}
+.follow_on ul li i{
+    margin-right: 8px;
+}
+.contact_us ul li i{
+    margin-right: 8px;
+}
+.home_button button:hover{
+    animation: bounce 0.5s ease;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+} 
+.steps ul li{
+    list-style-type: circle;
+    font-size: 25px;
+    color:gray;
+    line-height: 50px;
+}
+.list-of-food{
+    color: red;
+    text-transform: capitalize;
+    margin-top: 3% ; 
+    margin-bottom: 2%;
+}
+.row_1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.briyani_image img
+{   
+    width: 300px;
+    height: 400px;
+}
+.briyani{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.mutton_image img{
+    width: 300px;
+    height: 400px;
+    
+}
+.mutton{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.cake_image img{
+    width: 300px;
+    height: 400px;
+
+}
+.cake{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.row_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.chicken{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.chicken_image img{
+    width: 300px;
+    height: 400px;
+    
+}
+.panner{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.panner_image img{
+    width: 300px;
+    height: 400px;
+    
+}
+.hot_chocolate{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.hot_chocolate_image img{
+    width: 300px;
+    height: 400px;
+    
+}
+.row_1 button{
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+.row_2 button{
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+.briyani:hover{
+    animation: bounce 0.5s ease;
+    box-shadow: 0 0 20px red, 0 0 40px red;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+}
+.cake:hover{
+    animation: bounce 0.5s ease;
+    box-shadow: 0 0 20px red, 0 0 40px red;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+}
+.chicken:hover{
+    animation: bounce 0.5s ease;
+    box-shadow: 0 0 20px red, 0 0 40px red;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+}
+.hot_chocolate:hover{
+    animation: bounce 0.5s ease;
+    box-shadow: 0 0 20px red, 0 0 40px red;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+}
+.panner:hover{
+    animation: bounce 0.5s ease;
+    box-shadow: 0 0 20px red, 0 0 40px red;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+}
+.mutton:hover{
+    animation: bounce 0.5s ease;
+    box-shadow: 0 0 20px red, 0 0 40px red;
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+}
+.row_1 button{
+    border: none;
+    border-radius: 5px;
+}
+.row_2 button{
+    border: none;
+    border-radius: 5px;
+}
+.bb1:hover{
+   animation: bounce 0.5s ease; 
+}
+@keyframes bounce {
+    0%, 100% {
+    transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-15px);
+    }
+} 
+section,footer{
+    background-color: #fbeed2;
+}
